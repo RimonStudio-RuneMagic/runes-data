@@ -1,7 +1,7 @@
 # Runes Data
 
 ## General
-Every rune data object will send its id, a String(21) consisting of family and unique ID.
+Every rune data object will send its Rune ID, a String(21) consisting of family and unique ID.
 Also, seconds from last boot are sent as uptime:
 ```json
 { 
@@ -33,7 +33,7 @@ Every sensor will have an id and might have data:
 
 ## Sensor Types:
 
-### ID: 104 - Gyro / Accelerometer 
+### ID: 104 - Gyro / Accelerometer (MPU-6050)
 Data contains:
 Acceleration X, Y, Z, Temperature (for compensation), Gyro X, Y, Z
 ```json
